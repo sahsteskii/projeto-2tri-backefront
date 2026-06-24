@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 3 - Formulários</title>
+</head>
+<body>
+
+  <h1>Exercício 1: Cadastro de Usuário</h1>
+  <form>
+    <label for="nome">Nome</label><br>
+    <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
+    
+    <label for="email-cad">E-mail</label><br>
+    <input type="text" id="email-cad" name="email-cad" placeholder="Digite seu e-mail"><br><br>
+    
+    <label for="senha-cad">Senha</label><br>
+    <input type="text" id="senha-cad" name="senha-cad" placeholder="Digite sua senha"><br><br>
+    
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <hr>
+
+  <h1>Exercício 2: Cadastro de Tarefa</h1>
+  <form>
+    <label for="titulo-tarefa">Título</label><br>
+    <input type="text" id="titulo-tarefa" name="titulo-tarefa" placeholder="Digite o título da tarefa"><br><br>
+    
+    <label for="descricao-tarefa">Descrição</label><br>
+    <textarea id="descricao-tarefa" name="descricao-tarefa" rows="5" placeholder="Digite a descrição"></textarea><br><br>
+    
+    <label for="prioridade">Prioridade</label><br>
+    <select id="prioridade" name="prioridade">
+      <option value="baixa">Baixa</option>
+      <option value="media">Média</option>
+      <option value="alta">Alta</option>
+    </select><br><br>
+    
+    <button type="submit">Salvar tarefa</button>
+  </form>
+
+  <hr>
+
+  <h1>Exercício 3: Reserva de Espaço da Escola</h1>
+  <form>
+    <label for="nome-reserva">Nome</label><br>
+    <input type="text" id="nome-reserva" name="nome-reserva" placeholder="Digite seu nome"><br><br>
+    
+    <label for="turma">Turma</label><br>
+    <input type="text" id="turma" name="turma" placeholder="Digite sua turma"><br><br>
+    
+    <label for="horario">Horário</label><br>
+    <select id="horario" name="horario">
+      <option value="manha">Manhã</option>
+      <option value="tarde">Tarde</option>
+    </select><br><br>
+    
+    <button type="submit">Reservar quadra</button>
+  </form>
+
+  <hr>
+
+  <h1>Exercício 4: Formulário de Login</h1>
+  <form>
+    <label for="email-login">E-mail</label><br>
+    <input type="text" id="email-login" name="email-login" placeholder="Digite seu e-mail"><br><br>
+    
+    <label for="senha-login">Senha</label><br>
+    <input type="text" id="senha-login" name="senha-login" placeholder="Digite sua senha"><br><br>
+    
+    <button type="submit">Entrar</button>
+  </form>
+
+  <hr>
+
+  <h1>Exercício 5: Contato para a Coordenação</h1>
+  <form>
+    <label for="assunto">Assunto</label><br>
+    <select id="assunto" name="assunto">
+      <option value="duvida">Dúvida</option>
+      <option value="reclamacao">Reclamação</option>
+      <option value="sugestao">Sugestão</option>
+    </select><br><br>
+    
+    <label for="mensagem">Mensagem</label><br>
+    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea><br><br>
+    
+    <button type="submit">Enviar</button>
+  </form>
+
+</body>
+</html>
